@@ -24,6 +24,8 @@ async def download(update: Update, context: ContextTypes.DEFAULT_TYPE):
             {'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3'},
             {'key': 'EmbedThumbnail'},
             {'key': 'FFmpegMetadata'},
+            'cookiefile': 'cookies.txt',
+        
         ],
     }
 
